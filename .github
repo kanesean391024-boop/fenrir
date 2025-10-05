@@ -1,0 +1,27 @@
+/chatlogs
+fenrir_config.txt
+chat_log.txt
+summary.txt
+summary_log.txt
+archive/
+__pycache__/
+/logs
+chat_log*.txt
+/scripts
+*.zip
+fenrir_config-101+.txt
+fc.txt
+fenrir_config-Fenrir.txt
+fenrir_config-big.txt
+fenrir_config_trunc.txt
+fenrir_config-.txt
+fenrir_config-.txt
+last_agent
+fenrir_config.txt
+/agents
+fenrir_config - Copy.txt
+orig_fenrir_config.txt
+/agents-archive
+
+/confs
+confs/globals.json
