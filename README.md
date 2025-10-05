@@ -1,6 +1,6 @@
-Fenrir
+fenrir
 
-Fenrir now uses JSON configuration files under `confs/` to define globals, PDVs, agent classes and agents.
+fenrir now uses JSON configuration files under `confs/` to define globals, PDVs, agent classes and agents.
 
 ## Configuration
 - `confs/globals.json` – global defaults (model, temperature, prompts).
