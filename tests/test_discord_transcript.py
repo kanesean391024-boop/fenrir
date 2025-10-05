@@ -11,7 +11,7 @@ def test_discord_transcript(monkeypatch):
     ]
 
     fake_mod = types.SimpleNamespace(fetch_recent_discord_messages=lambda n: fake_msgs)
-    monkeypatch.setitem(sys.modules, "fenra_ui", fake_mod)
+    monkeypatch.setitem(sys.modules, "fenrir_ui", fake_mod)
 
     text = _discord_transcript(2)
     assert text.splitlines()[0].startswith("[2024-01-01] a:")
