@@ -22,7 +22,7 @@ User messages are queued by appending JSON objects to `chatlogs/queued_messages.
    python conductor.py --once     # run a single step
    python conductor.py --steps N  # run N steps then exit
    ```
-3. Launch the UI with `python fenra_ui.py`.
+3. Launch the UI with `python fenrir_ui.py`.
 
 ## Notes
 - If `confs/state.json` is missing, it will be created on first run with the earliest agent set as `current_agent`.
