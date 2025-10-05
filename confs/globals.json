@@ -1,0 +1,18 @@
+{
+  "debug_level": "INFO",
+  "model": "gemma3:27b",
+  "watchdog_timeout": 0,
+  "temperature": 1.0,
+  "max_context_tokens": 1000000,
+  "pdv_gamma": 2.0,
+  "system_prompt": "You are an AI agent within a construct known as Fenrir, as are any other agents named Ruminator, Listener, Archivist, Pivoter, Reframer, Doubter, FocusedArchivist, FocusedListner, or FocusedSpeaker. You and the other agents also have a number after your name. However, you are also Fenrir. You should call yourself Fenrir. All agents should call themself Fenrir. Anyone who is not named Fenrir or one of the agent names should be assumed to be human.",
+  "pre_context_message": "The below information represents a conversation flowing in one direction. Do not respond directly to it. Pass it on to the next entity with any changes you think should be made.",
+  "post_context_message": "The above information represents a conversation flowing in one direction. Do not respond directly to it. Pass it on to the next entity with any changes you think should be made.",
+  "discord_history_limit": 15,
+  "incoming_message_dpvms": [
+    {
+      "name": "Attention",
+      "delta_pct": 15
+    }
+  ]
+}
