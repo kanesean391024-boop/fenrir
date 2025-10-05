@@ -77,7 +77,7 @@ def init_global_logging(level: int) -> None:
     os.makedirs("logs", exist_ok=True)
     handlers = [
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler(os.path.join("logs", "fenra.log"), mode="a", encoding="utf-8"),
+        logging.FileHandler(os.path.join("logs", "fenrir.log"), mode="a", encoding="utf-8"),
     ]
     logging.basicConfig(level=level, format=LOG_FORMAT, handlers=handlers, force=True)
     logger.debug("Exiting init_global_logging")
